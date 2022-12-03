@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const siteTitle = "Next.js Blog";
 const Layout = ({ children, home }: any) => {
-  const name = "Shin Code";
+  const name = "🐻";
   return (
     <div className={styles.container}>
       <HEAD>
@@ -14,8 +14,8 @@ const Layout = ({ children, home }: any) => {
       </HEAD>
       <header className={styles.header}>
         <Image
-          src="/images/profile.png"
-          alt="犬"
+          src="/images/profile.jpeg"
+          alt="リラックマ"
           width={150}
           height={150}
           className={utilStyles.borderCircle}
