@@ -16,7 +16,7 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }: any) {
   return (
-    <Layout>
+    <Layout home>
       <section className={utilStyles.headingMd}>
         <p>エンジニアです。リラックマが好きです。</p>
       </section>
