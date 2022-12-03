@@ -14,8 +14,8 @@ const Layout = ({ children }: any) => {
           <Image
             src="/images/profile.png"
             alt="犬"
-            width={50}
-            height={50}
+            width={150}
+            height={150}
             className={utilStyles.borderCircle}
           />
           <h1 className={utilStyles.heading2Xl}>{name}</h1>
