@@ -18,7 +18,7 @@ export default function Home({ allPostsData }: any) {
   return (
     <Layout home>
       <section className={utilStyles.headingMd}>
-        <p>エンジニアです。リラックマが好きです。</p>
+        <p>ゆるふわエンジニアです。リラックマが好きです。</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2>📝 エンジニアのブログ</h2>
